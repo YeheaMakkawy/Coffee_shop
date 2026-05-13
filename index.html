@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee shop</title>
+    <!--css files-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <!-- start the header-->
+    <header>
+        <!-- start the navbar-->
+        <nav>
+            <!-- start the Home section-->
+            <div class="logo">
+                <a href="#home">
+                    <img src="images/logo.png" alt="logo">
+                </a>
+            </div>
+            <div class="list">
+              <ul>
+                <li><a href="index.html">Home</a></li>
+            <li><a href="about_page.html">About</a></li>
+            <li><a href="menu_page.html">Menu</a></li>
+            <li><a href="contact_page.html">Contact</a></li>
+            <li class="cart">
+                <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+         <span id="cart-count">0</span>
+             </li>
+              </ul>
+            </div>
+        </nav>
+        <!-- End the navbar-->
+    </header>
+    <!-- End the header-->
+     <!-- start the Home section-->
+      <section class="Home" id="home"> 
+         <div class="Text">
+         <h2>Black coffee is awesome</h2>
+         <h1>Time Discover<br> Coffee House</h1>
+         <p>Coffee is a companion during long nights, deep conversations, and silent mornings, always present without asking anything in return.</p>
+         <button onclick="window.location.href='menu_page.html'">Explore more <i class="fa-solid fa-cart-shopping cart-icon"></i></button>
+        </div>
+            </section>
+            <!-- End the Home section-->
+
+                 <!-- start the Testimonials section-->
+                 <section class="Testimonials" id="testimonials">
+                    <h2>What Our Clients Say</h2>
+                    <div class="Clients">
+                    <div>
+                     <img src="images/person1.jpg" alt="person1">
+                     <span>Yehea hassan</span>
+                     <p>“I’ve tried many cafés, but this one truly stands out. From the warm welcome to the carefully crafted coffee, everything feels made with passion and care.”</p>
+                    </div>
+                    <div>
+                    <img src="images/person2.jpg" alt="person2">
+                    <span>Yousif Mohamed</span>
+                     <p>This café feels like a second home to me. The coffee is always rich and perfectly brewed, the atmosphere is calm and cozy, and the staff makes every visit special.”</p>
+                    </div>
+                    <div>
+                     <img src="images/person3.jpg" alt="person3">
+                     <span>Ali Mohamed</span>
+                     <p>This café is not just about coffee, it’s about the experience. Great taste, beautiful presentation, and an atmosphere that makes you want to stay longer.”</p>
+                    </div>
+                    </div>
+                 </section>
+                 <!-- End the Testimonials section-->
+
+                  <!-- start the contact section-->
+                  <section class="contact" id="contact">
+                    <div class="heading">
+                      <h2>RESERVATION AREA</h2>
+                      </div>
+                      <div class="form">
+                        <div class="head">
+                        <h3>Book A Table</h3>
+                        </div>
+                        <input type="text" placeholder="Your Name">
+                        <input type="email" placeholder="Your Email">
+                        <input type="text" placeholder="Persons">
+                        <input type="date">
+                        <input type="time">
+                        <textarea class="text" placeholder="Message"></textarea>
+                        <button class="btn">BOOK A TABLE</button>
+                      </div>
+                      </section>
+                       <!-- End the contact section-->
+
+                        <!-- start the footer section-->
+                        <footer class="footer">
+                            <div class="about_info">
+                                <span>About info</span>
+                                <p>This is the perfect place to relax and enjoy a cup of coffee with friends and family</p>
+                                <div class="contact-info">
+                                <p><i class="fa-solid fa-location-dot"></i>Address: Egypt , Aswan </p>
+                                <p><i class="fa-solid fa-envelope"></i> Email: Caffeine@coffeehouse.com</p>
+                               <p><i class="fa-solid fa-phone"></i> Phone: 01090807060</p>
+                                </div>
+                            </div>
+                            <div class="links">
+                            <h3>Quick Links</h3>
+                            <ul>
+                           <li><a href="index.html">Home</a></li>
+                           <li><a href="about_page.html">About</a></li>
+                           <li><a href="menu_page.html">Menu</a></li>
+                           <li><a href="contact_page.html">Contact</a></li>             
+                             </ul>
+                            </div>
+                          <div class="social">
+                            <h3>Follow Us On</h3>
+                            <ul>
+                            <li><a href="#">facebook<i class="fa-brands fa-facebook"></i></a></li>
+                            <li><a href="#">twitter<i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href="#">instagram<i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a href="#">linkedin<i class="fa-brands fa-linkedin"></i></a></li>
+                            </ul>
+                            </div>
+                            </footer>
+<script src="main.js"></script>
+</body>
+</html>
