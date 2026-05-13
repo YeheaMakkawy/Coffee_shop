@@ -73,7 +73,7 @@ header nav{
     color: #c49b63;
 }
 
-/* ================= HOME ================= */
+/* ================= HOME page ================= */
 
 .Home{
     width: 100%;
@@ -333,7 +333,6 @@ padding: 15px 100px;
 margin: 10px 60px;
 
 }
-/* ================= Menu ================= */
 .Menu .menu_contect .drinks_1 div,
 .Menu .menu_contect .drinks_2 div{
   background: #f9f9f9;
@@ -426,7 +425,6 @@ margin-top: -20px;
     transform: scale(1.05);   
 }
 
-/* ================= about page ================= */
 
 .Menu .cart i{
 color: #222;
@@ -435,7 +433,7 @@ padding: 2px;
 transition: 0.1s ease-in-out;
 cursor: pointer;
 }
-/* ================= About ================= */
+/* ================= About page ================= */
 .about_page {
   padding: 80px 5%;
   background: #1a1a1a;
@@ -459,7 +457,7 @@ cursor: pointer;
   color: #d4a85a;
 }
 
-/* ================= Contact ================= */
+/* ================= Contact page ================= */
 .about-container {
   display: flex;
   align-items: center;
