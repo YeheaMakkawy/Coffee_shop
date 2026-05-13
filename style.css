@@ -333,7 +333,7 @@ padding: 15px 100px;
 margin: 10px 60px;
 
 }
-
+/* ================= Menu ================= */
 .Menu .menu_contect .drinks_1 div,
 .Menu .menu_contect .drinks_2 div{
   background: #f9f9f9;
@@ -430,13 +430,12 @@ margin-top: -20px;
 
 .Menu .cart i{
 color: #222;
-margin: 5px;
-padding: 5px;
+margin: 4px;
+padding: 2px;
 transition: 0.1s ease-in-out;
+cursor: pointer;
 }
-.Menu .cart:hover i{
-    color: #c49b63;
-}
+/* ================= About ================= */
 .about_page {
   padding: 80px 5%;
   background: #1a1a1a;
@@ -460,7 +459,7 @@ transition: 0.1s ease-in-out;
   color: #d4a85a;
 }
 
-
+/* ================= Contact ================= */
 .about-container {
   display: flex;
   align-items: center;
