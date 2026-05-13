@@ -318,6 +318,7 @@ font-size: 20px;
     background-color: #c49b63;
     border-radius: 20px;
 }
+/* ================= Menu page ================= */
 .Menu{
 display: flex;
 justify-content: space-between;
@@ -425,6 +426,7 @@ margin-top: -20px;
     background-color: #d1a568;
     transform: scale(1.05);   
 }
+/* ================= about page ================= */
 .about_page {
   padding: 80px 5%;
   background: #1a1a1a;
@@ -550,6 +552,7 @@ margin-top: -20px;
   opacity: 1;
   transform: translateY(0);
 }
+/* ================= Contact page ================= */
 .contact-page {
   height: 100vh;
   display: flex;
