@@ -1,19 +1,21 @@
 // ============================================
  // Dark and Light mode
 // ============================================
-const body=document.body
-const mode=document.getElementById("mode")
-const icon=document.getElementById("icon")
-mode.addEventListener("click",function(){
-  if (body.classList.contains("light")) {
-    body.classList.replace("light", "dark");
-    icon.classList.replace("bi-moon", "bi-sun");
-  }
-  else{
-    body.classList.replace("dark", "light");
-    icon.classList.replace("bi-sun", "bi-moon");
-  }
-})
+const body = document.body;
+const mode = document.getElementById("mode");
+const icon = document.getElementById("icon");
+
+if (mode && icon) {
+  mode.addEventListener("click", function () {
+    if (body.classList.contains("light")) {
+      body.classList.replace("light", "dark");
+      icon.classList.replace("bi-moon", "bi-sun");
+    } else {
+      body.classList.replace("dark", "light");
+      icon.classList.replace("bi-sun", "bi-moon");
+    }
+  });
+}
 
 // 1. About page - Scroll Reveal
 const reveals = document.querySelectorAll(".reveal");
